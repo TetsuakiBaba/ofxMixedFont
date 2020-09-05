@@ -402,7 +402,7 @@ void ofxFT2Font::drawGlyphsWithPath(const std::vector<ofxMixedFontUtil::ofxGlyph
                 continue;
             }
             loaded_glyph_outlines_[glyph_index].setFilled(false);
-            loaded_glyph_outlines_[glyph_index].setStrokeWidth(0.5);
+            loaded_glyph_outlines_[glyph_index].setStrokeWidth(2.0);
             loaded_glyph_outlines_[glyph_index].draw(glyph.coord.x, glyph.coord.y);
         }
     }

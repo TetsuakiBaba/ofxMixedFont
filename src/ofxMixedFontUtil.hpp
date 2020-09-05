@@ -1,5 +1,5 @@
 #pragma once
-
+#include "ofMain.h"
 #include "ofTypes.h"
 
 #include <string>
